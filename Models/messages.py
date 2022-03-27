@@ -1,5 +1,5 @@
 from Databases.db import landingdb
-class message(landingdb.Model):
+class messages(landingdb.Model):
     id = landingdb.Column(landingdb.Integer, primary_key=True)
     nombre = landingdb.Column(landingdb.String(20), nullable=False)
     apellido = landingdb.Column(landingdb.String(20), nullable=False)
