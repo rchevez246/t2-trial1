@@ -1,0 +1,11 @@
+navbar {
+    padding: 50px;
+    justify-content: space-between;
+    padding-left: 100px ;
+    padding-right: 100px;
+    float: right;
+}
+
+maintitle {
+    float: left;
+}
